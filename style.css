@@ -6,8 +6,60 @@ body {
 table {
     border-spacing: 0;
     text-align: center;
+    background-color: #F8F9FA;
 }
 
 td, th {
-    border: 0.5px solid grey;
+    border: 0.5px solid #B8BDC4;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+}
+
+table th:first-child, th:nth-child(2) {
+    color: black;
+}
+
+table th:nth-child(4), th:nth-child(7) {
+    color: #C20012;
+}
+
+th {
+    color: #064DB5;
+    background-color: #EAECF0;
+}
+
+table td:first-child, td:nth-child(2) {
+    font-weight: bold;
+    color: black;
+}
+
+#blueT {
+    color: #064DB5;
+}
+
+.blue {
+    background-color: #00A4E4;
+}
+
+.red {
+    background-color:#DC241F;
+}
+
+.violet {
+    background-color: #800080;
+}
+
+.rose {
+    background-color: #FF00FF;
+}
+
+.jaune {
+    background-color: #FED105;
+}
+
+span {
+    color: #6A86C9;
+    font-size: 12px;
 }
