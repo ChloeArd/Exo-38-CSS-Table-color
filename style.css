@@ -7,14 +7,16 @@ table {
     border-spacing: 0;
     text-align: center;
     background-color: #F8F9FA;
+    margin-left: 400px;
+    margin-top: 100px;
 }
 
 td, th {
     border: 0.5px solid #B8BDC4;
-    padding-top: 4px;
-    padding-left: 4px;
-    padding-right: 4px;
-    padding-bottom: 4px;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
 }
 
 table th:first-child, th:nth-child(2) {
@@ -61,5 +63,21 @@ table td:first-child, td:nth-child(2) {
 
 span {
     color: #6A86C9;
+    font-size: 11px;
+}
+
+.disparer {
+    border: none;
+    background-color: #EAECF0;
+}
+
+caption {
+    font-weight: bold;
+    caption-side: top;
+    padding-bottom: 3px;
+}
+
+sup {
     font-size: 12px;
+    color: #4371C4;
 }
